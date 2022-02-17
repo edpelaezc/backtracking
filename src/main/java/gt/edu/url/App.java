@@ -1,5 +1,7 @@
 package gt.edu.url;
 
+import gt.edu.url.AC3.AddCSP;
+
 import java.util.*;
 
 /**
@@ -36,5 +38,8 @@ public class App
 
         var solucion = problema.backtrack();
         System.out.println(solucion);
+        System.out.println(".........................................................");
+        AddCSP csp = new AddCSP();
+        csp.solve();
     }
 }
